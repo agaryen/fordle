@@ -71,7 +71,7 @@ export default class FinDePartiePanel {
     let afficherChrono = (Sauvegardeur.chargerConfig() ?? Configuration.Default).afficherChrono;
 
     const entete =
-      "SUTOM #" +
+      "FORDLE #" +
       numeroGrille +
       " " +
       (estBonneReponse ? resultats.length : "-") +
